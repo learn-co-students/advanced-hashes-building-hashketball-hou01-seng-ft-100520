@@ -3,33 +3,31 @@ require 'pry'
 
 def game_hash
   {
-    :home =>{
+    :home => {
       :team_name => {
         
       },
-      :colors => [
-        
-        ],
+      :colors => [],
         
     
-      :players => [
-        {
+      :players =>{
+          
+        }
         
-      }
-      ]
 
-    :away =>{
+    :away => {
       :team_name => {
         
       },
-      :colors => [
+      :colors => [],
         
-        ],
+      :players => {
+          
+        }
         
-      :players => [
-        {
         
-      }
-      ]
+        
+     }
+    }
   }
   end
